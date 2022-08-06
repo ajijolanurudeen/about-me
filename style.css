@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    color:  #40514E;
+    font-family: "Exo", sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-family: "Sacramento", sans-serif;
+    font-size: 5.625rem;
+    color: #66bfbf;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+    color: rgb(78, 151, 151);
+    padding-bottom: 10px;
+  }
+  
+  h3 {
+    font-family: "Merienda", Courier, monospace;
+    margin-bottom: 20px;
+  }
+
+  .landing{
+    padding-top: 40px;
+    background-color: #dff6f0;
+  }
+  .cloud1{
+    margin-left:30rem ;
+  }
+
+  .cloud2{
+    margin-top: 20px;
+    margin-right: 35rem;
+    padding: 10px;
+  }
+  
+  hr {
+    border: none;
+    border-top: dotted #8ba3a3 5px;
+    width: 4%;
+    margin:auto;
+  }
+
+  .profile_pic{
+    border-radius: 50%;
+    height: 22rem;
+    margin-top: 100px;
+  }
+
+  .intro_container{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 6rem;
+  }
+  .my-skills{
+    padding-top: 50px;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+  .laptop{
+    border-radius: 50%;
+    height: 8rem;
+  }
+  .things_i_can{
+    display: flex;
+  }
+  .projects-container{
+    width: 50%;
+    margin: auto;
+    margin-bottom:8rem;
+  }
+  .cell-tower{
+    border-radius: 50%;
+    height: 8rem;
+  }
+  .inner{
+    display: flex;
+  }
+
+  .get-in-touch{
+    padding-top: 5rem;
+    width:40%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  input{
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #599bb3;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+    border: none;
+    box-shadow: 0px 10px 14px -7px #276873;
+    margin-bottom: 20px;
+  }
+  input:hover {
+
+    background-color: #408c99;
+    color: #40514E;
+  }
+
+  .footer{
+    height:10rem;
+    background-color: #66bfbf;
+    text-align: center;
+  }
+
+  .bottom-container{
+    padding-top: 4rem;
+    
+  }
+
+  a{
+    text-decoration: none;
+    font-size: 15px;
+    padding-top: 20px;
+    color:  #11999e;
+    padding: 20px;
+  }
+  a:hover {
+    color: #e8f6f6;
+  }
+  .copyright{
+    margin-top: 20px;
+    font-size: 10px;
+    color: white;
+  }
