@@ -30,15 +30,28 @@ h2 {
   .landing{
     padding-top: 40px;
     background-color: #dff6f0;
+    width: 100%;
   }
   .cloud1{
-    margin-left:30rem ;
+    display: flex ;
+    justify-content:left;
+    padding: 30px;
   }
 
   .cloud2{
-    margin-top: 20px;
-    margin-right: 35rem;
-    padding: 10px;
+    /*margin-top: 20px;
+    margin-right: 35rem;*/
+    padding: px;
+    float: right;
+   
+  }
+  .img-mountain{
+    width: 70%;
+    margin:auto;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   hr {
@@ -50,20 +63,22 @@ h2 {
 
   .profile_pic{
     border-radius: 50%;
-    height: 22rem;
-    margin-top: 100px;
-  }
+    height: 10rem;
+    width: 10rem;
+    margin:50px auto;
+
+   }
 
   .intro_container{
-    width: 30%;
+    width: 70%;
     margin: auto;
     margin-bottom: 6rem;
   }
   .my-skills{
     padding-top: 50px;
-    width: 40%;
+    width: 50%;
     margin: auto;
-    padding: 20px;
+   /* padding: 20px;*/
     padding-bottom: 50px;
   }
   .laptop{
@@ -71,7 +86,8 @@ h2 {
     height: 8rem;
   }
   .things_i_can{
-    display: flex;
+   display: flex;
+    margin: auto;
   }
   .projects-container{
     width: 50%;
@@ -135,4 +151,59 @@ h2 {
     margin-top: 20px;
     font-size: 10px;
     color: white;
+  }
+  @media screen and (max-width:480px) {
+
+    
+h1{
+  font-family: "Sacramento", sans-serif;
+  font-size: 2.625rem;
+  color: #66bfbf;
+}
+.text{
+font-size: 17px;
+}
+
+    .inner{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .things_i_can{
+      display: flex;
+      flex-direction: column;
+     }
+     .laptop{
+      border-radius: 50%;
+      height: 6rem;
+      width: 6rem;
+      margin: auto;
+    }
+    .cell-tower{
+      border-radius: 50%;
+      height: 6rem;
+      width: 6rem;
+      margin: auto;
+    
+  }
+  .profile_pic{
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    margin:50px auto;
+
+   }
+   .cloud1{
+    float: left;
+    width: 0;
+    height:0;
+  }
+
+  .cloud2{
+    /*margin-top: 20px;
+    margin-right: 35rem;*/
+    float: right;
+    width:0;
+    height: 0;
+   
+  }
   }
